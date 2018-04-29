@@ -1,0 +1,44 @@
+NUM a
+PUSH a 4
+NUM b
+PUSH b 8
+NUM c
+NUM load1
+ADD load1 7 4
+PUSH c load1
+PRINT c
+BOOL value
+GT value b a
+CHECK value
+PRINT b
+CHECKEND
+OTHERWISE
+PRINT a
+OTHERWISEEND
+NUM p
+PUSH p 4
+NUM q
+PUSH q 7
+BOOL value
+LT value p q
+UNTIL value
+PRINT p
+NUM load2
+ADD load2 p 1
+PUSH p load2
+LT value p q
+UNTILEND
+NUM d
+PUSH d 1
+NUM e
+PUSH e 2
+NUM r
+NUM load3
+MUL load3 d e
+ADD load3 4 load3
+NUM load4
+DIV load4 4 2
+SUB load4 load3 load4
+PUSH r load4
+PRINT r
+TERMINATE

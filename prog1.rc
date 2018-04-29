@@ -1,0 +1,30 @@
+start
+num a
+a = 4
+num b
+b = 8
+num c
+c = 7+4
+display(c)
+check b>a
+display(b)
+otherwise
+display(a)
+checkEnd
+num p
+p = 4
+num q
+q = 7
+until p<q
+display(p)
+p = p+1
+untilEnd
+num d
+d = 1
+num e
+e = 2
+num r
+r = 4+d*e-4/2
+display(r)
+!! bahuhihio
+terminate
